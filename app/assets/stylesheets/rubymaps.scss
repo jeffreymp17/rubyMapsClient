@@ -1,0 +1,28 @@
+// Place all the styles related to the rubymaps controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+  /* El mapa en un tamaño del 100% */
+  #map {
+    height: 100%;
+  }
+  /* configuraciones opcionales del CSS */
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+        /*panel flotante de busqueda */
+  #floating-panel {
+    position: absolute;
+    top: 10px;
+    left: 25%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+  }
+  

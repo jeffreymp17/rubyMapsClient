@@ -1,0 +1,28 @@
+<html>
+ 
+  <head>
+  <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+            <link rel="stylesheet" type="text/css" href="css/styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <title>RubyMaps</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+          <meta http-equiv="Access-Control-Allow-Origin" content="*"/>
+
+  </head>
+  <body>
+    <%= yield %>
+        <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key= AIzaSyCmXy7FoVflQvj_nIyOZPCUxYalUpPUR5g &callback=initMap">
+    </script>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+  </body>
+</html>
+
+
